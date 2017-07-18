@@ -1,0 +1,27 @@
+{
+    "name": "willwhite/freemail",
+    "description": "A database of free and disposable email domains and a handy Node.js module for querying it.",
+    "keywords": ["free", "email"],
+    "homepage": "https://github.com/willwhite/freemail",
+    "version": "0.1.0",
+    "time": "2015-04-30",
+    "type": "library",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Will White",
+            "email": "will@mapbox.com",
+            "homepage": "http://mapbox.com"
+        }
+    ],
+    "support": {
+        "email": "will@mapbox.com"
+    },
+    "require": {
+        "php": ">= 5.3.0",
+        "ext-zip": "*"
+    },
+    "autoload": {
+        "classmap": ["./"]
+    }
+}
