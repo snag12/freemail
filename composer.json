@@ -18,8 +18,7 @@
         "email": "will@mapbox.com"
     },
     "require": {
-        "php": ">= 5.3.0",
-        "ext-zip": "*"
+        "php": ">= 5.3.0"
     },
     "autoload": {
         "classmap": ["./"]
